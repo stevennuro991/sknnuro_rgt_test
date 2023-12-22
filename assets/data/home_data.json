@@ -1,0 +1,95 @@
+{
+    "dashboardItems": [
+      {
+        "label": "Visits",
+        "badgeCount": 1
+      },
+      {
+        "label": "Medications",
+        "badgeCount": 0
+      },
+      {
+        "label": "Vaccinations",
+        "badgeCount": 0
+      }
+    ],
+    "pieChart": {
+      "segments": [
+        {
+          "value": 50.0,
+          "color": "#818CF8"
+        },
+        {
+          "value": 40.0,
+          "color": "#EAB308"
+        },
+        {
+          "value": 40.0,
+          "color": "#F472B6"
+        },
+        {
+          "value": 30.0,
+          "color": "#22D3EE"
+        },
+        {
+          "value": 50.0,
+          "color": "#FB7185"
+        }
+      ],
+      "topLabel": "Upcoming",
+      "bottomLabel": "5 Activities"
+    },
+    "homeDataContainers": [
+      {
+        "visitsText": "Future Visits",
+        "number": "1"
+      },
+      {
+        "visitsText": "Future Vaccinations",
+        "number": "2"
+      },
+      {
+        "visitsText": "Future Lab Tests",
+        "number": "3"
+      },
+      {
+        "visitsText": "Surgeries",
+        "number": "4"
+      }
+    ],
+    "activeMedications": [
+      {
+        "name": "ENTRESTO, 100 mg",
+        "description": "2/day",
+        "isMorning": true,
+        "isAfternoon":false,
+        "isEvening":false
+      },
+      {
+        "name": "Spironolactone, 25mg",
+        "description": "1/day",
+        "isMorning": true,
+        "isAfternoon":false,
+        "isEvening":true
+      }
+    ],
+    "trackingMeasures": [
+      {
+        "date": "Feb 15, 2023",
+        "measurement": "B12",
+        "value": "173 pg/ml",
+        "status": "Off Track",
+        "statusColor": "#DC2626",
+        "lastTestResult": "Last test result: 154 pg/ml (90 days ago)"
+      },
+      {
+        "date": "Mar 12, 2023",
+        "measurement": "Vitamin D",
+        "value": "50 ng/ml",
+        "status": "On Track",
+        "statusColor": "#10B981",
+        "lastTestResult": "Last test result: 45 ng/ml (60 days ago)"
+      }
+    ]
+  }
+  
